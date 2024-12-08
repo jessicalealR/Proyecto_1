@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mapa Interactivo</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="{{ url_for('static', filename='map.js') }}" defer></script>
+</head>
+<body>
+    <h1>Mapa Interactivo</h1>
+    <a href="/logout">Cerrar Sesión</a>
+    <div id="map" style="height: 600px; width: 100%;"></div>
+</body>
+</html>
